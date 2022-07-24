@@ -17,10 +17,10 @@
         <nav class="navbar navbar-expand-lg bg-body px-md-5 py-md-4">
             <div class="container-fluid">
                 <a class="navbar-brand text-dark fw-bolder" href="#">Abacus Convention Center</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                <button class="bg-body border border-0" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <span class="d-lg-none d-block"><img src="icons/menu-2 1.svg" alt=""></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fw-semibold px-5">
@@ -43,7 +43,140 @@
     </section>
     <!------------------------------------------------------------------------                                navigation ends
     ------------------------------------------------------------------------->
+    <!------------------------------------------------------------------------                                Carousel Start
+    ------------------------------------------------------------------------->
+    <div id="carouselExampleDark" class="carousel slide mb-3" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="2000">
+                <img src="images/banner.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>The perfect venue for your <br>
+                        next event</h1>
+                    <p>Some representative placeholder content for the first slide.</p>
+                    <button class="btn bg-light text-primary fw-bold mb-4 px-4">Book Now</button>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="images/banner.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>SThe perfect venue for your <br>
+                        next event</h1>
+                    <p>Some representative placeholder content for the second slide.</p>
+                    <button class="btn bg-light text-primary fw-bold mb-4 px-4">Book Now</button>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="images/banner.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>The perfect venue for your <br>
+                        next event</h1>
+                    <p>Some representative placeholder content for the third slide.</p>
+                    <button class="btn bg-light text-primary fw-bold mb-4 px-4">Book Now</button>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="images/banner.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>The perfect venue for your <br>
+                        next event</h1>
+                    <p>Some representative placeholder content for the third slide.</p>
+                    <button class="btn bg-light text-primary fw-bold mb-4 px-4">Book Now</button>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!------------------------------------------------------------------------                                Carousel ends
+    ------------------------------------------------------------------------->
+    <!------------------------------------------------------------------------                                toast starts
+    ------------------------------------------------------------------------->
 
+    <div class="container position-relative d-md-none d-block">
+        <div class="toast show w-sm-50 w-xs-75 position-absolute top-0 start-50 translate-middle-x" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-header">
+                <img src="icons/Vector.svg" class="rounded me-2" alt="...">
+                <strong class="me-auto">20% off on next booking</strong>
+                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+            
+        </div>
+    </div>
+    
+
+    <!------------------------------------------------------------------------                                toast ends
+    ------------------------------------------------------------------------->
+    <!------------------------------------------------------------------------                                Album starts
+    ------------------------------------------------------------------------->
+        <div class="container my-4 position-relative d-md-block d-none">
+
+                <div class="toast show w-sm-50 w-xs-75 position-absolute top-50 end-0 translate-middle-y translate-middle-x d-md-block d-none" role="alert" aria-live="assertive" aria-atomic="true">
+                    <div class="toast-header">
+                        <img src="icons/Vector.svg" class="rounded me-2" alt="...">
+                        <strong class="me-auto">20% off on next booking</strong>
+                        <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                    </div>
+                    
+                </div>
+            
+            <div class="row d-flex flex-md-row flex-column-reverse align-items-center text-md-start text-center">
+                <!-- For Image -->
+                <div class="col">
+                    <img src="images/wedding.png" alt="" class="img-fluid">
+                </div>
+                <!-- For Info -->
+                <div class="col">
+                    <h1 class="fw-bolder">Every moment is Precious </h1>
+                    <p class="fw-bold text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci similique reiciendis exercitationem quibusdam eveniet, eius fugiat, deleniti ut temporibus velit architecto voluptatum amet ullam quos neque porro officia quas est!</p>
+                    <button class="btn bg-primary fw-bold text-light mb-md-0 mb-3">Explore our album <img src="icons/arrow-forward 1.svg" alt=""></button>
+                </div>
+            </div>
+        </div>
+        <!-- ------------------------------------------------------------- -->
+        <div class="container my-4 d-md-none d-block">
+
+            <div class="toast show w-sm-50 w-xs-75 position-absolute top-50 end-0 translate-middle-y translate-middle-x d-md-block d-none" role="alert" aria-live="assertive" aria-atomic="true">
+                <div class="toast-header">
+                    <img src="icons/Vector.svg" class="rounded me-2" alt="...">
+                    <strong class="me-auto">20% off on next booking</strong>
+                    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                </div>
+                
+            </div>
+        
+        <div class="row d-flex flex-md-row flex-column-reverse align-items-center text-md-start text-center">
+            <!-- For Image -->
+            <div class="col">
+                <img src="images/wedding.png" alt="" class="img-fluid">
+            </div>
+            <!-- For Info -->
+            <div class="col">
+                <h1 class="fw-bolder">Every moment is Precious </h1>
+                <p class="fw-bold text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci similique reiciendis exercitationem quibusdam eveniet, eius fugiat, deleniti ut temporibus velit architecto voluptatum amet ullam quos neque porro officia quas est!</p>
+                <button class="btn bg-primary fw-bold text-light mb-md-0 mb-3">Explore our album <img src="icons/arrow-forward 1.svg" alt=""></button>
+            </div>
+        </div>
+    </div>
+    <!------------------------------------------------------------------------                                Album ends
+    ------------------------------------------------------------------------->
+        
+   
     <!-- bootstrap JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
